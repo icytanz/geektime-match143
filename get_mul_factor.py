@@ -4,6 +4,7 @@ Created on Mon Dec 24 14:30:38 2018
 
 @author: icytanz
 """
+#python的list列表是个坑，递归里面如果用list，必须的深度copy，否则改写了原有的list，或者不想被改写的list被改写了
 
 import copy
 
